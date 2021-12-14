@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "Arduino_Quadcopter",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
