@@ -13,7 +13,7 @@ Repository for my Arduino Quadcopter Project.
 - #### Self Stabilize flight mode - Default flight mode that keeps the quadcopter level and orientated during flight via the usage of the Arduino's gyroscope and accelerometer. 
 - #### Acro/Sport mode - little to no self stabilizing, the operator has full control of quadcopter and is responsible for keeping the quadcopter orientated. 
 
-## Techonlogies
+## Technologies
 * Qt version: 5.15.2
 * FrameworkIO Core version: 5.2.3
 * Cpp version: C++11
