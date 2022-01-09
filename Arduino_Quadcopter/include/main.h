@@ -8,5 +8,6 @@
 
 Quadcopter myQuad;
 BLEDevice remote;
+bool successfulSetup;
 
 #endif

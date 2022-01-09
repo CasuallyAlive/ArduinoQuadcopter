@@ -1,10 +1,11 @@
 #include "Quadcopter.h"
 
-Quadcopter::Quadcopter(const std::array<int, 4> &motorArms) : MAX_MOTOR_SPEED(255),
-                                                              MAX_ANGLE(30),
-                                                              isArmed(false)
+Quadcopter::Quadcopter(const std::array<int, 4> &motorArmIds) : MAX_MOTOR_SPEED(255),
+                                                                MAX_ANGLE(30),
+                                                                isArmed(false),
+                                                                motorArmIds(motorArmIds),
+                                                                motorArmSpeeds({0, 0, 0, 0})
 {
-    this->motorArms = std::array<int, 4>(motorArms);
 }
 void Quadcopter::setIsArmed(bool isArmed)
 {
